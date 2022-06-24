@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+@font-face {
+    font-family: consola;
+    src: url(./font/CONSOLAZ.TTF);
+}
+@font-face {
+    font-family: consolab;
+    src: url(./font/CONSOLAB.TTF);
+}
+@font-face {
+    font-family: blanka;
+    src: url(./font/Blanka-Regular.otf);
+}
+@font-face {
+    font-family: tahu;
+    src: url(./font/Tahu!.ttf);
+}
+body {
+    background: rgb(236, 236, 236);
+    /* background: url(./bg2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-position-x: right; */
+}
+.conainer {
+    width: 1300px;
+}
+
+.item {
+    width: 100%;
+    height: 100vh;
+}
+.item .img {
+    width: 600px;
+    height: 100vh;
+    float: left;
+}
+.item .txt {
+    width: 700px;
+    height: 100vh;
+    background: rgba(236, 236, 236, 0);
+    float: left;
+    padding-left: 30px;
+    padding-top: 30px;
+}
+
+h1, p{
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+}
+h1 {
+    margin-top: 20px;
+    color: hotpink;
+    font-family: tahu;
+    text-transform: capitalize;
+}
+p {
+    margin-top: 10px;
+    line-height: 25px;
+    letter-spacing: 0.5px;
+    font-family: consolas;
+    color: #9a9c93;
+}
+p span {
+    color: #808080;
+    font-family: consolab;
+}
+.cap {
+    text-transform: lowercase;
+}
+.green {
+    color: green;
+}
+.orangered {
+    color: #ff9d00;
+}
+.red {
+    color: red;
+}
+.sky {
+    color: #0091ee;
+}
+.card {
+    width: 600px;
+    height: 100vh;
+}
+.card1{
+    background-color: aqua;
+}
+.card2{
+    background-color: blue;
+}
+.card3{
+    background-color: yellowgreen;
+}
+p img {
+    width: 22px;
+    height: 12px;
+}
+.con {
+    position: relative;
+    
+}
+.con img {
+    float: right;
+    position: absolute;
+    right: -25px;
+    top: 4px;
+}
+.social {
+    margin-top: 20px;
+    margin-left: 0px;
+    height: 15px;
+    background: rgba(255, 0, 0, 0);
+}
+.social a img {
+    height: 100%;
+    float: left;
+    margin: 0 30px;
+    margin-left: 0;
+}
